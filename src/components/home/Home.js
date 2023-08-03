@@ -28,6 +28,7 @@ export default function Home() {
                {info.socials.map((social, index) => (
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
                ))}
+               
             </Box>
          </Box>
       </Box>
