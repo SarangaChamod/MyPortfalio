@@ -14,6 +14,12 @@ export default function About() {
             <p>
                 {info.bio}
             </p>
+            {/* <br></br>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd cv.doc
+            </p>
+            <p>
+            <a href="url">click to view cv</a>
+            </p> */}
         </>;
     }
 
