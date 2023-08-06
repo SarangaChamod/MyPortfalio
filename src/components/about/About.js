@@ -17,7 +17,7 @@ export default function About() {
         </>;
     }
 
-    function skillsText() {
+    function skillsText() { 
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills/tools
             </p>
