@@ -5,6 +5,7 @@ import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 import Coming_soon from "../img/Coming_soon.png"
+import Slide01 from "../img/Slide01.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -83,8 +84,8 @@ export const info = {
     bio: "Hello, and welcome to my portfolio! I am Saranga Chamod, a passionate and driven undergraduate Software Engineer based in Sri Lanka. With a relentless curiosity for technology and a love for coding, I strive to make a meaningful impact in the world of software development.",
     skills:
         {
-            proficientWith: [ 'github', 'figma', 'adobe illustrator','adobe photoshop','bootstrap'],
-            exposedTo: ['Flutter', 'Java', 'React']
+            proficientWith: [ 'github', 'figma', 'adobe illustrator','adobe photoshop'],
+            exposedTo: ['Flutter']
         }
     ,
     hobbies: [
@@ -96,7 +97,7 @@ export const info = {
         {
             label: 'Dulshan Senadheera',
             emoji: '🧑‍💻',
-            link: 'https://www.linkedin.com/in/dulshan-senadheera/' // Add the link to the theater hobby
+            link: 'https://dulshansenadheera.me/' // Add the link to the theater hobby
         },
         {
             label: 'Sanuth Rathnayake',
@@ -106,12 +107,19 @@ export const info = {
         
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
-        {
-           // title: "Coming Soon",
-           // live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-           // source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: Coming_soon
-        },
         
+        {
+            title: "Environmental Monitoring Application",
+            live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/SarangaChamod/EMP_Application", // this should be a link to the **repository** of the project, where the code is hosted.
+             image: Slide01
+         },
+         {
+            title: "Environmental Monitoring Application",
+            live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/SarangaChamod/EMP_Application", // this should be a link to the **repository** of the project, where the code is hosted.
+             image: Slide01
+         },
+         
     ]
 }
