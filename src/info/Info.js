@@ -114,12 +114,7 @@ export const info = {
             source: "https://github.com/SarangaChamod/EMP_Application", // this should be a link to the **repository** of the project, where the code is hosted.
              image: Slide01
          },
-         {
-            title: "Environmental Monitoring Application",
-            live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/SarangaChamod/EMP_Application", // this should be a link to the **repository** of the project, where the code is hosted.
-             image: Slide01
-         },
+         
          
     ]
 }
