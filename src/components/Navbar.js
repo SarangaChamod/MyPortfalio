@@ -12,7 +12,7 @@ const links = [
         active: 'home'
     },
     {
-        name: 'About Me',
+        name: 'About_Me',
         to: '/about',
         active: 'about'
     },
@@ -28,7 +28,7 @@ const links = [
         active: 'portfolio'
     },
     {
-        name: 'ui desigs',
+        name: 'ui_desigs',
         to: '/uiDesign',
         active: 'uiDesign'
     }
